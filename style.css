@@ -65,9 +65,10 @@ h1{
   align-items:baseline ;
   list-style-type: none;
   text-decoration: none;
-  
- 
 
+}
+.deroulante a:hover{
+  background-color: black;
 }
 
 .item{
@@ -128,6 +129,9 @@ h2,.block2 ul {
   color: black;
   font-weight: bold;
 
+}
+.filtre2 a:hover{
+  background-color: blue;
 }
 
 
@@ -435,6 +439,7 @@ footer a{
 
 #hebergement_marseille a, #populaire a, #Activité a  {
   text-decoration: none;
+  color: black;
 }
 
 @media all and (max-width:1023px) {
