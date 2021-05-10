@@ -68,7 +68,7 @@ h1{
 
 }
 .deroulante a:hover{
-  background-color: black;
+ color: black;
 }
 
 .item{
@@ -131,7 +131,7 @@ h2,.block2 ul {
 
 }
 .filtre2 a:hover{
-  background-color: blue;
+ color: blue;
 }
 
 
