@@ -151,7 +151,6 @@ h2,.block2 ul {
 .block2{
   display: flex;
   flex-direction: row;
-  justify-content: baseline;
   align-items: baseline;
  
  
@@ -177,7 +176,7 @@ ul i{
   font-size: 10px;
   padding-right: 6px;
   border-left: -10px solid rgb(179, 177, 177);
-
+  
 }
 
 .indication{
