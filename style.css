@@ -433,7 +433,7 @@ footer a{
   font-size: 18px;
 }
 
-a{
+#hebergement_marseille a, #populaire a, #Activité a  {
   text-decoration: none;
 }
 
