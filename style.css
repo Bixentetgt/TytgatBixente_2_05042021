@@ -182,7 +182,6 @@ ul i{
 .indication{
   display: flex;
   flex-direction: row;
-  justify-content: baseline;
   align-items: baseline;
 
 }
