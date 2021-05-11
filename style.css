@@ -108,6 +108,10 @@ h2,.block2 ul {
   list-style-type: none;
 }
 
+.block2 h2 {
+  font-size: 18px;
+}
+
 .filtre2{
   margin-left:30px ;  
   margin-right:20px ;
@@ -184,6 +188,10 @@ ul i{
   flex-direction: row;
 }
 
+.section1 h2{
+  margin-left: 20px;
+}
+
 #hebergement_marseille{
   width:66%;
   margin-right: 4%;
@@ -236,16 +244,12 @@ ul i{
   margin: 1%;
  
 }
-.partie1 i .la2{
-  color:grey;
-}
+i.fas.fa-star.la2{
+  color: grey;
+} 
 .partie1 i {
   color:blue;
 }
-
-
-
-
 
 .partie2 {
   display: flex;
@@ -258,7 +262,6 @@ ul i{
 .partie2 figure{
   display: flex;
   flex-direction: row;
-  
   width: 90%;
   margin-right: 1.5%;
   margin-left: 1.5%;
@@ -267,10 +270,6 @@ ul i{
   border:5px solid white;
   background-color: white;
   border-radius: 15px;
-  
-  
-
-
 }
 
 .partie2 figure img{
@@ -289,28 +288,19 @@ ul i{
 }
 
 .partie2 figure figcaption h3 , .partie2 figure figcaption p{ 
-
   margin:0;
 }
 
 .partie2 i {
-
-color: blue;
-
-  
+color: blue;  
 }
+
 #Populaire h2 i{
    display: flex;
    flex-direction: row;
   align-items:baseline;
   justify-content: right;
 }
-
-
-.section1 h2{
-  margin-left: 20px;
-}
-
 
 
 #activité {
@@ -325,9 +315,7 @@ color: blue;
 
  margin-bottom: 20px;             
 }
-i.fas.fa-star.la2{
-  color: grey;
-} 
+
 
 .vieux_port{
   grid-area:vieux_port;
@@ -386,6 +374,11 @@ i.fas.fa-star.la2{
 
 }
 
+#hebergement_marseille a, #populaire a, #Activité a  {
+  text-decoration: none;
+  color: black;
+}
+
 footer{
   display: flex;
   flex-direction: row;
@@ -406,16 +399,31 @@ footer a{
   color: gray;
 }
 
-.block2 h2 {
-  font-size: 18px;
-}
-
-#hebergement_marseille a, #populaire a, #Activité a  {
-  text-decoration: none;
-  color: black;
-}
 
 @media all and (max-width:1023px) {
+  
+  .block2 ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 0;}  
+  
+  .block2 ul li{
+
+    margin-left: 0px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width:auto;
+  }
+
+  .section1{
+   display: flex;
+   flex-direction: column;
+   align-items:baseline;
+  width: 100%;
+}
+  
+  
   .partie1 figure{
     width: 100%;
     box-sizing: border-box;
@@ -423,118 +431,72 @@ footer a{
     flex-direction: column;
     align-items: center;
     box-shadow: 0PX 0PX 1PX 0px; }
-
-    .section1{
-      display: flex;
-      flex-direction: column;
-      align-items:baseline;
-      width: 100%;
       
       
-    }
-    #hebergement_marseille{
-      width: 100%;
-      margin-bottom: 5px;
-    }
-    .partie1 figure{
-      width: 100%;
-      
-    }
-    .block2 ul{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      padding-left: 0;}  
     
-      .block2 ul li{
-
-        margin-left: 0px;
-        margin-right: 5px;
-        margin-bottom: 5px;
-        width:auto;}
-
-    #populaire{
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-    }
-    
-    #populaire figure{
-      display: flex;
-      flex-direction: row;
-    }
-
-    #Activité{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-    }
-    #Activité figure{
-    width: 30%;
-    height: 250px;
-    }
-    
-   
-}
-
-@media all and (max-width:768px){
-
-
-  .section1{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    width: 100%;
-    
-  }
-  
   #hebergement_marseille{
-    flex-direction: column;
-    flex-wrap: wrap;
     width: 100%;
-    margin: 0;
-    margin-bottom: 15px;
-    background-color:initial;
+    margin-bottom: 5px;
+  }
+  .partie1 figure{
+    width: 100%;
+      
+  }
     
 
-  }
-  #activité{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-     
-  }
-
-  #activité figure{
-    width: 100%;
-
-  }
   #populaire{
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 100%;
   }
-  .block2{
+    
+  #populaire figure{
     display: flex;
     flex-direction: row;
   }
-  
-  
 
-  footer{
+  #Activité{
     display: flex;
-    flex-direction: column;
+     flex-direction: row;
+    flex-wrap: wrap;
+   }
+  #Activité figure{
+   width: 30%;
+   height: 250px;
   }
-   .block1{
+    
+}
+
+@media all and (max-width:768px){
+  
+  header{
+    margin: 0 15px 0 15px;
+     
+  }
+  
+  .reservia{
+    display: flex;
+    flex-direction:row ;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .block1{
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: baseline;
   
    }
- 
-   .deroulante{
+
+   .block1 .deroulante ul #inscrire{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+  }
+  
+  .deroulante{
     display:flex ;
     flex-direction: row;
     width: 100%;
@@ -550,87 +512,106 @@ footer a{
     padding: 0%;
     width: 100%;
    }
-  
 
-  .block2 ul{
-   display: flex;
-   flex-direction: row;
-   padding-left: 0;  
-  }
-
-  .block2 ul li{
-
-    margin-left: 0px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    width:auto;
-  }
-   .block2 ul li a{
-   padding-left: 5px;
-   padding-right:5px;
-  }
-
- .partie1 figure{
-   width: 100%;
-   box-sizing: border-box;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   box-shadow: 0PX 0PX 1PX 0px;
-
-  
-  }
-
-  #Activité figure{
-    height: 200px;
-    width: 100%;
-  }
-
-  main{
-    margin: 0 15px 0 15px
-  }
-  .section1{
-    display: flex;
-    flex-direction: column-reverse;
-
-  }
-  .partie2 figure{
-    width: 100%;
-    
-  }
-  header{
-    margin: 0 15px 0 15px;
-     
-  }
-
-  .block1 .deroulante ul #inscrire{
-    position: absolute;
-    top: 10px;
-    right: 10px;
-
-  }
-
-  #recherche{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-
-  .reservia{
-    display: flex;
-    flex-direction:row ;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-
-  .objet{
+   .objet{
     width:50%;
     text-align: center;
     border-bottom: 1px solid grey;
      margin: 0;
   }
   
+   #recherche{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .block2{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .block2 ul{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;  
+   }
+ 
+   .block2 ul li{
+ 
+     margin-left: 0px;
+     margin-right: 5px;
+     margin-bottom: 5px;
+     width:auto;
+   }
+    .block2 ul li a{
+    padding-left: 5px;
+    padding-right:5px;
+   }
+
+  .section1{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 100%;
+    
+  }
+  
+  main{
+    margin: 0 15px 0 15px
+  }
+  .partie1 figure{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0PX 0PX 1PX 0px;
+ 
+   
+   }
+  #hebergement_marseille{
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 15px;
+    background-color:initial;
+    
+
+  }
+
+   .partie2 figure{
+    width: 100%;
+    
+  }
+   #populaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  #activité{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+     
+  }
+
+  #activité figure{
+    width: 100%;
+
+  }
+  #Activité figure{
+    height: 200px;
+    width: 100%;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+  }
   
 
 }
