@@ -517,7 +517,7 @@ footer a{
    .objet{
     width:50%;
     text-align: center;
-    border-bottom: 1px solid grey;
+    border-bottom: 3px solid rgb(179, 177, 177);
      margin: 0;
      padding: 20px;
   }
