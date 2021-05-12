@@ -453,13 +453,13 @@ footer a{
   }
     
 
-  #populaire{
+  #Populaire{
     display: flex;
     flex-direction: column;
     width: 100%;
   }
     
-  #populaire figure{
+  #Populaire figure{
     display: flex;
     flex-direction: row;
   }
@@ -608,21 +608,21 @@ footer a{
     width: 100%;
     
   }
-   #populaire{
+   #Populaire{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
   }
 
-  #activité{
+  #Activité{
     display: flex;
     flex-direction: column;
     width: 100%;
      
   }
 
-  #activité figure{
+  #Activité figure{
     width: 100%;
 
   }
