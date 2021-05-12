@@ -522,6 +522,11 @@ footer a{
      padding: 20px;
   }
   
+  .objet:hover{
+    color: rgb(0, 101, 252);
+    border-color: rgb(0, 101, 252);
+  }
+
    #recherche{
     display: flex;
     flex-direction: row;
