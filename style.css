@@ -500,6 +500,7 @@ footer a{
     display:flex ;
     flex-direction: row;
     width: 100%;
+    margin-bottom:  30px;
 
    }
   
@@ -518,6 +519,7 @@ footer a{
     text-align: center;
     border-bottom: 1px solid grey;
      margin: 0;
+     padding: 20px;
   }
   
    #recherche{
