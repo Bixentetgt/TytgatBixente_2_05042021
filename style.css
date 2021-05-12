@@ -525,6 +525,11 @@ footer a{
   .objet:hover{
     border-color: rgb(0, 101, 252);
   }
+  
+  .objet a{
+    color:black  
+  }
+  
   .objet:hover a{
    color: rgb(0, 101, 252);
   }
