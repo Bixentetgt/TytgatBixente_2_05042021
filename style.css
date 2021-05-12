@@ -530,7 +530,7 @@ footer a{
     color:black  
   }
   
-  .objet:hover a{
+  .deroulante ul .objet:hover a{
    color: rgb(0, 101, 252);
   }
 
