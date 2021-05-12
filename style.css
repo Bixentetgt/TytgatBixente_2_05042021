@@ -158,6 +158,7 @@ h2,.block2 ul {
 .barre{
   border: 1px solid gray;
   height: 100%;
+  box-sizing: border-box;
 }
 
 
@@ -206,7 +207,7 @@ ul i{
   background-color:rgb(242,242,242);
 }
 
-#populaire{
+#Populaire{
   width:30%;
   background-color:rgb(242,242,242);
   border-radius: 15px;
@@ -310,7 +311,7 @@ color: blue;
 }
 
 
-#activité {
+#Activité {
   width: 100%;
   grid-template-rows: 220px 220px;
   margin:auto;
@@ -381,7 +382,7 @@ color: blue;
 
 }
 
-#hebergement_marseille a, #populaire a, #Activité a  {
+#hebergement_marseille a, #Populaire a, #Activité a  {
   text-decoration: none;
   color: black;
 }
@@ -389,7 +390,7 @@ color: blue;
 footer{
   display: flex;
   flex-direction: row;
-  justify-content:space-between ;
+  justify-content:space-around ;
   background-color:rgb(242,242,242);
   width: 100%;
   
@@ -399,6 +400,7 @@ footer{
 footer ul {
   list-style-type: none;
   color: black;
+  padding:0;
 }
 
 footer a{
