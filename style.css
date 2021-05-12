@@ -523,8 +523,10 @@ footer a{
   }
   
   .objet:hover{
-    color: rgb(0, 101, 252);
     border-color: rgb(0, 101, 252);
+  }
+  .objet:hover a{
+   color: rgb(0, 101, 252);
   }
 
    #recherche{
