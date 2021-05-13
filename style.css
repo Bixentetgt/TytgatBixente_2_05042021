@@ -571,7 +571,18 @@ footer a{
     padding-left: 5px;
     padding-right:5px;
    }
-
+   
+   .partie2 figure{
+    width: 100%;
+    
+  }
+   
+  #Populaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
   .section1{
     display: flex;
     flex-direction: column;
@@ -583,6 +594,7 @@ footer a{
   main{
     margin: 0 15px 0 15px
   }
+  
   .partie1 figure{
     width: 100%;
     box-sizing: border-box;
@@ -602,17 +614,6 @@ footer a{
     background-color:initial;
   }
 
-   .partie2 figure{
-    width: 100%;
-    
-  }
-   
-  #Populaire{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
 
   #Activité{
     display: flex;
