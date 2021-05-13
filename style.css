@@ -1,5 +1,5 @@
 body{
-margin: 0;
+margin: 0PX;
 
 
 font-family: 'Raleway', sans-serif;
@@ -9,12 +9,14 @@ font-family: 'Raleway', sans-serif;
 .reservia{
   height:45px;
   width: 90px;
+  padding-top: 30px;
+  
 }
 
 header{
   margin-left: 55px;
   margin-right: 55px;
-  margin-top: 55px;
+  margin-top: 0px;
 }
 
 main{
@@ -25,6 +27,7 @@ main{
 h1{
   font-weight: bold;
   font-size: 25px;
+  padding-top: 30px;
 }
 
 .rechercher{
@@ -72,10 +75,17 @@ h1{
   align-items:baseline ;
   list-style-type: none;
   text-decoration: none;
-
+  
 }
+
 .deroulante ul li a:hover{
  color: black;
+ border-top: 1px solid blue;
+}
+
+.deroulante ul li a{
+  border-top:1px solid white;
+  padding-top: 39px;
 }
 
 .item{
@@ -172,7 +182,7 @@ h2,.block2 ul {
 
 
 ul i{
-  background-color:rgb(148, 154, 219);
+  background-color:rgb(222, 235, 255);
   border-radius: 100%;
   font-size: 10px;
   color:rgb(0, 101, 252);
@@ -572,29 +582,20 @@ footer a{
     padding-right:5px;
    }
    
-   .partie2 figure{
-    width: 100%;
-    
-  }
    
-  #Populaire{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
   .section1{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items:center;
     width: 100%;
     
   }
   
   main{
-    margin: 0 15px 0 15px
+    margin: 0 15px 0 15px;
+    
   }
-  
+
   .partie1 figure{
     width: 100%;
     box-sizing: border-box;
@@ -614,6 +615,17 @@ footer a{
     background-color:initial;
   }
 
+  .partie2 figure{
+    width: 100%;
+    
+  }
+   
+  #Populaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
 
   #Activité{
     display: flex;
